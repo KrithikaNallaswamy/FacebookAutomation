@@ -1,0 +1,6 @@
+# exclude everything in Logs
+target/*
+
+# exception to the rule
+!target/.gitkeep 
+

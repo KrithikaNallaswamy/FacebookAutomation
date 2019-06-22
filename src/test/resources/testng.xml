@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AllTestSuite" verbose="1" >
+
+    <listeners>
+        <listener class-name="utils.TestListener"></listener>
+    </listeners>
+
+    <test name="Chrome test">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.SignUpTest">
+            </class>
+        </classes>
+    </test>
+</suite>
